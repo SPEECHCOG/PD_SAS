@@ -12,8 +12,8 @@ Our method was validated on a Finnish PD corpuse (PDSTU) and a Spanish PD corpus
 - python (opensmile, tensorflow, librosa, pandas...)
 # Steps:
 - Feature extraction
-- - SAS: output from MULAN-ACCENT
-- - fbank_pitch: input to MULAN-ACCENT (run copy_fbanks_pitch.sh)
+- - SAS: output from MULAN-ACCENT (we used the implemented CNN models for articulation manner and place, respectively.)
+- - fbank_pitch: input to MULAN-ACCENT (run copy_fbanks_pitch.sh, to copy features of fbanks and pitch from .ark files.)
 - - egemaps: opensmile (run feature_extraction_opensmile.ipynb)
 - Data precessing:
 - - run data_preparation_regression.py (data for MFCC will be generated from data for fbank_pitch.)
