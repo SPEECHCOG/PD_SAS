@@ -53,19 +53,12 @@ from glob import glob
 import pandas as pd
 import numpy as np
 from matplotlib import pyplot as plt
-from matplotlib import cm
-from matplotlib import axes 
 from scipy import stats
 from scipy.stats import pearsonr
 from scipy.stats import spearmanr
 from sklearn.pipeline import make_pipeline
-from sklearn.metrics import classification_report
-from sklearn.metrics import confusion_matrix
-from sklearn.metrics import mean_absolute_error
-from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import LeaveOneGroupOut
 from sklearn.model_selection import LeavePGroupsOut
-from sklearn import mixture
 import librosa
 import tensorflow as tf
 from tensorflow import keras
