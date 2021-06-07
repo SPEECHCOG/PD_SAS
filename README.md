@@ -21,3 +21,6 @@ Our method was validated on a Finnish PD corpuse (PDSTU) and a Spanish PD corpus
 - - run PD_assessment_regression.py
 - Experimental results analysis:
 - - run results_analysis_regression.ipynb
+
+# Citation:
+Yuanyuan Liu, Nelly Penttilä, Tiina Ihalainen, Okko Räsänen, “Automatic Assessment of Parkinson’s Disease with Speech Attribute Scores on Diverse Speech Tasks”, submitted to IEEE/ACM Transactions on Audio, Speech and Language Processing, June 4, 2021. [not available online yet]
