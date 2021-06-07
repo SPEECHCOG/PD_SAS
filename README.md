@@ -5,7 +5,7 @@ This project is to extract speech attribute score (SAS) features for Parkinson's
 
 Speech attribute scores on articulation manner and place are extracted using MULAN-ACCENT implemented in Kaldi (https://github.com/Vanova/MULAN-ACCENT).
 
-Our method was validated on a Finnish PD corpuse (PDSTU) and a Spanish PD corpus (PC-GITA). The predictions of speech/voice disorders, speech intelligibility, overall severity of communication disorder, UPDRS and UPDRS-speech are formed as regression problems.
+Our method was validated on a Finnish PD corpuse (PDSTU) and a Spanish PD corpus (PC-GITA). Both speech corpora contained speech from tasks of sustained-vowels, reading and spontaneous monologues. The predictions of voice disorders, speech intelligibility, overall severity of communication disorder in PDSTU, UPDRS and UPDRS-speech in PC-GITA are formed as regression problems.
 
 # Environment:
 - Kaldi
